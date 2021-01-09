@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { OrderPayLoad } from './Orders/types';
 
-const API_URL = "https://dsdeliver-spring.herokuapp.com"
+const API_URL = process.env.API_URL;
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAP_BOX;
 
 
