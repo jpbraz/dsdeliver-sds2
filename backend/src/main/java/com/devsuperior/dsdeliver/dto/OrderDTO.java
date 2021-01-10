@@ -26,7 +26,9 @@ public class OrderDTO implements Serializable{
 	public OrderDTO() {
 	}
 
-	public OrderDTO(Long id, String address, Double latitude, Double longitude, Instant moment, OrderStatus status, Double total) {
+	public OrderDTO(Long id, String address, Double latitude, 
+			Double longitude, Instant moment, 
+			OrderStatus status, Double total) {
 		this.id = id;
 		this.address = address;
 		this.latitude = latitude;
