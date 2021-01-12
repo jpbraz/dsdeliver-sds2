@@ -10,6 +10,7 @@ import Routes from './src/Routes';
 export default function App() {
   let [fontsLoaded] = useFonts({
     OpenSans_400Regular,
+    OpenSans_700Bold
   });
 
   if (!fontsLoaded) {

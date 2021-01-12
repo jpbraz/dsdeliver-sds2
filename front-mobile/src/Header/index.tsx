@@ -13,15 +13,15 @@ export default function Header() {
                 <Image source={require('../assets/logo.png')} />
                 <Text style={styles.text}>DS Deliver</Text>
             </View>
-            </TouchableWithoutFeedback>
+        </TouchableWithoutFeedback>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
         backgroundColor: '#da5c5c',
-        height: 90,
-        paddingTop: 50,
+        height: 70,
+        paddingTop: 30,
         flexDirection: 'row',
         justifyContent: 'center',
     },
